@@ -58,10 +58,10 @@ Add your MongoDB database url
 Create a upstash account to get upstash redis url and token for rate limiter 
 NODE_ENV can be switched to "DEPLOYMENT" OR "PRODUCTION".
 ```bash
-MONGO_URI=mongodb+srv://naikaryan951_db_user:9VdDFr3yuB1pnftS@cluster0.hdyre6n.mongodb.net/notes_project?appName=Cluster0
+MONGO_URI= your_mongodb_url
 PORT=5001
-UPSTASH_REDIS_REST_URL="https://dear-filly-25489.upstash.io"
-UPSTASH_REDIS_REST_TOKEN="AWORAAIncDJkMmYzZGUxODYyZWQ0ZDFhYmI0MmI5ZjY1OTgyNWI5NXAyMjU0ODk"
+UPSTASH_REDIS_REST_URL="your_upstash_url"
+UPSTASH_REDIS_REST_TOKEN="your_upstash_token"
 NODE_ENV=production
 ```
 
