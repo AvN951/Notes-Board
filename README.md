@@ -77,26 +77,25 @@ npm run start
 
 ## 📸 Screenshots
 
-### 🏠 Dashboard
+### 🏠 View a Specific Note Page
 <img src="https://github.com/user-attachments/assets/cae92662-3dff-4c42-b929-fa482b0a29ce" width="900"/>
 
 ---
 
-### 📋 Notes List
+### 📋 Notes List Page
 <img src="https://github.com/user-attachments/assets/eefa8c3a-0748-4a0d-97eb-ab6bd0a53485" width="900"/>
 
 ---
 
-### 🔍 Navbar
-<img src="https://github.com/user-attachments/assets/b9292661-8a94-47cf-9eb2-b21dd9877e96" width="900"/>
-
----
-
-### ➕ Add Note
+### ➕ Create Notes Page
 <img src="https://github.com/user-attachments/assets/6b128102-1cac-48f3-b5b8-f48752827d42" width="900"/>
 
 ---
 
-### ⚙️ Footer / Controls
+### ⚙️ Toast Messages after creating a note
 <img src="https://github.com/user-attachments/assets/e857f12b-f0eb-4d39-88a3-d12515b747ef" width="900"/>
 
+---
+
+### ⚙️ Toast Messages after deleting a note
+<img src="https://github.com/user-attachments/assets/b9292661-8a94-47cf-9eb2-b21dd9877e96" width="900"/>
