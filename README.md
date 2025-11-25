@@ -8,41 +8,70 @@ Notes Board is a modern web application built with **Vite**, **React**, and **Ta
 It provides a smooth and responsive notes-taking experience with a modular and intuitive component structure.
 
 ---
+# 📝 Notes Board
 
-## ✨ Features
-
-- ⚡ **Vite** – Ultra-fast development & build system  
-- ⚛️ **React** – Component-based UI for maintainability  
-- 🎨 **TailwindCSS / DaisyUI** – Beautiful and responsive styling  
-- 📁 Clean, modular folder structure  
-- 🔧 API-ready architecture (Axios supported)  
-- 📦 Lightweight, performant, and easy to extend  
+A fast, minimal, and modern **Notes Application** built using **React**, **Vite**, **TailwindCSS**, **Express.js**, and **MongoDB**.  
+Notes Board allows users to create, view, and manage notes with a clean UI and responsive design.
 
 ---
 
-## 📦 Tech Stack
+## 🚀 Features
 
-<p>
-  <kbd>
-    <img src="https://skillicons.dev/icons?i=react" width="45"/><br>React
-  </kbd>
-  <kbd>
-    <img src="https://skillicons.dev/icons?i=vite" width="45"/><br>Vite
-  </kbd>
-  <kbd>
-    <img src="https://skillicons.dev/icons?i=tailwind" width="45"/><br>TailwindCSS
-  </kbd>
-  <kbd>
-    <img src="https://skillicons.dev/icons?i=daisyui" width="45"/><br>DaisyUI
-  </kbd>
-  <kbd>
-    <img src="https://skillicons.dev/icons?i=redux" width="45"/><br>Redux (optional)
-  </kbd>
-  <kbd>
-    <img src="https://skillicons.dev/icons?i=axios" width="45"/><br>Axios
-  </kbd>
-</p>
+- ⚡ **Fast UI** powered by Vite + React  
+- 🎨 **Modern styling** using TailwindCSS  
+- 📦 **REST API** backend using Express.js  
+- 🗄️ **MongoDB** with Mongoose  
+- 🚦 **Rate Limiting** implemented with Upstash Redis  
+- 🔔 Toast notifications via react-hot-toast  
+- 📱 Fully responsive design  
+- 🧹 Clean project structure (Frontend + Backend)
 
 ---
 
-## 📁 Folder Structure (Optional)
+## 🛠️ Tech Stack
+
+### **Frontend**
+- React.js  
+- Vite  
+- TailwindCSS  
+- Axios  
+- DaisyUI (if using)  
+- React Hot Toast  
+
+### **Backend**
+- Node.js  
+- Express.js  
+- MongoDB + Mongoose  
+- Upstash Redis (Rate Limiting)
+
+---
+## 📦 Installation STEPS
+
+### Clone the Repository
+```bash
+git clone https://github.com/AvN951/Notes-Board
+cd backend
+```
+
+### Create .env file in /backend folder with your own credentials and mention the below credentials
+Add your MongoDB database url
+Create a upstash account to get upstash redis url and token for rate limiter 
+NODE_ENV can be switched to "DEPLOYMENT" OR "PRODUCTION".
+```bash
+MONGO_URI=mongodb+srv://naikaryan951_db_user:9VdDFr3yuB1pnftS@cluster0.hdyre6n.mongodb.net/notes_project?appName=Cluster0
+PORT=5001
+UPSTASH_REDIS_REST_URL="https://dear-filly-25489.upstash.io"
+UPSTASH_REDIS_REST_TOKEN="AWORAAIncDJkMmYzZGUxODYyZWQ0ZDFhYmI0MmI5ZjY1OTgyNWI5NXAyMjU0ODk"
+NODE_ENV=production
+```
+
+### Install Dependencies (Make Sure you have Nodejs installed)
+```bash
+npm run build
+```
+
+### Start Project
+```bash
+npm run start
+```
+
