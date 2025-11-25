@@ -1,17 +1,11 @@
 <h1 align="center">📝 Notes Board</h1>
-<h3 align="center">A Fast, Clean & Modern Notes App Built with Vite + React + TailwindCSS</h3>
+<h3 align="center">A Fast, Clean & Modern Notes App Built with MERN Stack</h3>
 
 ---
 
 ## 🚀 Overview  
-Notes Board is a modern web application built with **Vite**, **React**, and **TailwindCSS**, focusing on speed, clean UI, and easy scalability.  
+Notes Board is a modern web application built with **React**, **Vite**, **TailwindCSS**, **Nodejs**, **Express.js**, and **MongoDB**. focusing on speed, clean UI, and easy scalability.  
 It provides a smooth and responsive notes-taking experience with a modular and intuitive component structure.
-
----
-# 📝 Notes Board
-
-A fast, minimal, and modern **Notes Application** built using **React**, **Vite**, **TailwindCSS**, **Express.js**, and **MongoDB**.  
-Notes Board allows users to create, view, and manage notes with a clean UI and responsive design.
 
 ---
 
@@ -35,13 +29,13 @@ Notes Board allows users to create, view, and manage notes with a clean UI and r
 - Vite  
 - TailwindCSS  
 - Axios  
-- DaisyUI (if using)  
+- DaisyUI
 - React Hot Toast  
 
 ### **Backend**
 - Node.js  
 - Express.js  
-- MongoDB + Mongoose  
+- MongoDB
 - Upstash Redis (Rate Limiting)
 
 ---
