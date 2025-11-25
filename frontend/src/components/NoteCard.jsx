@@ -6,13 +6,13 @@ import toast from "react-hot-toast";
 
 const NoteCard = ({ note, setNotes }) => {
   const handleDelete = async (e, id) => {
-    e.preventDefault(); // get rid of the navigation behaviour
+    e.preventDefault();
 
     if (!window.confirm("Are you sure you want to delete this note?")) return;
 
     try {
       await api.delete(`/notes/${id}`);
-      setNotes((prev) => prev.filter((note) => note._id !== id)); // get rid of the deleted one
+      setNotes((prev) => prev.filter((note) => note._id !== id));
       toast.success("Note deleted successfully");
     } catch (error) {
       console.log("Error in handleDelete", error);
@@ -23,8 +23,7 @@ const NoteCard = ({ note, setNotes }) => {
   return (
     <Link
       to={`/note/${note._id}`}
-      className="card bg-base-100 hover:shadow-lg transition-all duration-200 
-      border-t-4 border-solid border-[#fffb00]"
+      className="card bg-base-100 hover:shadow-lg transition-all duration-200 border-t-4 border-solid border-[oklch(0.722105_0.159514_342.009)]"
     >
       <div className="card-body">
         <h3 className="card-title text-base-content">{note.title}</h3>
