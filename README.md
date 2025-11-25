@@ -76,8 +76,27 @@ npm run start
 ```
 
 ## 📸 Screenshots
-<img width="1365" height="767" alt="Screenshot 2025-11-25 230422" src="https://github.com/user-attachments/assets/cae92662-3dff-4c42-b929-fa482b0a29ce" />
-<img width="1365" height="765" alt="Screenshot 2025-11-25 230410" src="https://github.com/user-attachments/assets/eefa8c3a-0748-4a0d-97eb-ab6bd0a53485" />
-<img width="1365" height="93" alt="Screenshot 2025-11-25 230405" src="https://github.com/user-attachments/assets/b9292661-8a94-47cf-9eb2-b21dd9877e96" />
-<img width="1365" height="767" alt="Screenshot 2025-11-25 230343" src="https://github.com/user-attachments/assets/6b128102-1cac-48f3-b5b8-f48752827d42" />
-<img width="1365" height="80" alt="Screenshot 2025-11-25 230442" src="https://github.com/user-attachments/assets/e857f12b-f0eb-4d39-88a3-d12515b747ef" />
+
+### 🏠 Dashboard
+<img src="https://github.com/user-attachments/assets/cae92662-3dff-4c42-b929-fa482b0a29ce" width="900"/>
+
+---
+
+### 📋 Notes List
+<img src="https://github.com/user-attachments/assets/eefa8c3a-0748-4a0d-97eb-ab6bd0a53485" width="900"/>
+
+---
+
+### 🔍 Navbar
+<img src="https://github.com/user-attachments/assets/b9292661-8a94-47cf-9eb2-b21dd9877e96" width="900"/>
+
+---
+
+### ➕ Add Note
+<img src="https://github.com/user-attachments/assets/6b128102-1cac-48f3-b5b8-f48752827d42" width="900"/>
+
+---
+
+### ⚙️ Footer / Controls
+<img src="https://github.com/user-attachments/assets/e857f12b-f0eb-4d39-88a3-d12515b747ef" width="900"/>
+
